@@ -1,0 +1,20 @@
+minijail (8-2018.11.11) unstable; urgency=medium
+
+  * minijail: Handle cap_get_flag(3) failing with EINVAL
+  * minijail: Allow setting a cap_from_text(3)-compliant string to -c
+  * minijail0: change default mount settings for tmpfs mounts
+  * Remove semi-pointless info() message.
+  * minijail0: change default mount flags with -k
+  * Rename running_with_asan_or_hwasan (NFC).
+  * drop syscall filter line length check
+  * Skip setting seccomp filter under HWASan, same as ASan.
+  * fix out-of-tree builds
+  * syscall_filter_unittest: rewrite in C++
+  * syscall_filter_unittest: fix thinko with compile_policy_line
+  * generate_seccomp_policy.py: rewrite in python3 (and style)
+  * minijail: Avoid setting PR_SET_KEEPCAPS if that bit is locked
+  * README.md: Fix some nits. am: 5848309c79
+  * README.md: Fix some nits.
+
+ -- Andras Stribik <andras@stribik.technology>  Sun, 11 Nov 2018 23:56:00 -0400
+

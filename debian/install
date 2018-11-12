@@ -1,0 +1,5 @@
+libminijail.so /lib64
+libminijailpreload.so /lib64
+minijail0 /bin
+minijail0.1.gz /usr/share/man/man1
+minijail0.5.gz /usr/share/man/man5

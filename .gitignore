@@ -21,3 +21,14 @@
 
 # Google Test.
 googletest-release*
+
+# Compressed man pages
+/minijail0.1.gz
+/minijail0.5.gz
+
+# Packaging metadata
+/debian/debhelper-build-stamp
+/debian/files
+/debian/minijail.debhelper.log
+/debian/minijail.substvars
+/debian/minijail/

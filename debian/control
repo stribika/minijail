@@ -1,0 +1,14 @@
+Source: minijail
+Section: net
+Priority: optional
+Maintainer: Stribik András <andras@stribik.technology>
+Build-Depends: debhelper (>= 9), gcc, g++, libcap-dev, linux-headers-amd64, make
+Standards-Version: 3.9.8
+Homepage: https://www.chromium.org/chromium-os/developer-guide/chromium-os-sandboxing
+Vcs-Browser: https://android.googlesource.com/platform/external/minijail
+Vcs-Git: https://android.googlesource.com/platform/external/minijail
+
+Package: minijail
+Architecture: all
+Depends: libcap, ${misc:Depends}
+Description: Sandboxing and containment tool used in Chrome OS and Android
