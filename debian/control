@@ -10,5 +10,5 @@ Vcs-Git: https://android.googlesource.com/platform/external/minijail
 
 Package: minijail
 Architecture: all
-Depends: libcap, ${misc:Depends}
+Depends: libcap2, ${misc:Depends}
 Description: Sandboxing and containment tool used in Chrome OS and Android
